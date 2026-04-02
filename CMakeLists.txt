@@ -13,6 +13,7 @@ add_executable(eniac_opengl
 				${CMAKE_SOURCE_DIR}/3rds/glad/src/glad.c)
 
 target_include_directories(eniac_opengl PRIVATE ${CMAKE_SOURCE_DIR})
+target_include_directories(eniac_opengl PRIVATE ${CMAKE_SOURCE_DIR}/3rds)
 target_include_directories(eniac_opengl PRIVATE ${CMAKE_SOURCE_DIR}/3rds/glfw/include)
 target_include_directories(eniac_opengl PRIVATE ${CMAKE_SOURCE_DIR}/3rds/glad/include)
 target_include_directories(eniac_opengl PRIVATE ${CMAKE_SOURCE_DIR}/3rds/glm)
@@ -67,4 +68,10 @@ add_custom_command(TARGET eniac_opengl POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_directory
         "${CMAKE_SOURCE_DIR}/glsl"
         "$<TARGET_FILE_DIR:eniac_opengl>/glsl"
+)
+
+add_custom_command(TARGET eniac_opengl POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+        "${CMAKE_SOURCE_DIR}/res"
+        "$<TARGET_FILE_DIR:eniac_opengl>/res"
 )

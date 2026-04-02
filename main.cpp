@@ -4,6 +4,7 @@
 
 #include "elements/triangle.h"
 #include "elements/cube.h"
+#include "elements/cube_texture.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
     glViewport(0, 0, width, height);
@@ -47,8 +48,8 @@ int main() {
 
     glViewport(0, 0, 800, 600);
 
-    Elements::Cube cube("MyCube");
-    cube.initialize();
+    Elements::CubeTexture cubeTexture("MyCubeTexture");
+    cubeTexture.initialize();
 
     glEnable(GL_DEPTH_TEST);
 
@@ -58,8 +59,8 @@ int main() {
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        cube.update(glfwGetTime());
-        cube.render();
+        cubeTexture.update(glfwGetTime());
+        cubeTexture.render();
 
         glfwSwapBuffers(window);
         glfwPollEvents();

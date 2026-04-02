@@ -11,7 +11,7 @@ namespace Elements {
         virtual ~Triangle();
 
         void initialize() override;
-        void update() override;
+        void update(double delta_time) override;
         void render() override;
 
     private:

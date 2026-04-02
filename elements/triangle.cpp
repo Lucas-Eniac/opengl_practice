@@ -70,7 +70,7 @@ namespace Elements {
         glDeleteShader(fragmentShader);
     }
 
-    void Triangle::update() {
+    void Triangle::update(double delta_time) {
         // Update triangle state if necessary
     }
 

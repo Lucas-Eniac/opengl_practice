@@ -1,5 +1,6 @@
 #pragma once
 
+#include <cstdint>
 #include <string>
 
 namespace Elements {
@@ -9,7 +10,7 @@ namespace Elements {
         virtual ~Element() = default;
 
         virtual void initialize() = 0;
-        virtual void update() = 0;
+        virtual void update(double delta_time) = 0;
         virtual void render() = 0;
 
         const std::string& getName() const { return name; }

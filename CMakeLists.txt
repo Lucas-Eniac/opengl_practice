@@ -15,6 +15,7 @@ add_executable(eniac_opengl
 target_include_directories(eniac_opengl PRIVATE ${CMAKE_SOURCE_DIR})
 target_include_directories(eniac_opengl PRIVATE ${CMAKE_SOURCE_DIR}/3rds/glfw/include)
 target_include_directories(eniac_opengl PRIVATE ${CMAKE_SOURCE_DIR}/3rds/glad/include)
+target_include_directories(eniac_opengl PRIVATE ${CMAKE_SOURCE_DIR}/3rds/glm)
 
 if(WIN32)
 	if(MINGW)
@@ -60,3 +61,10 @@ if(WIN32)
 else()
 	message(FATAL_ERROR "This project currently ships bundled GLFW binaries for Windows only.")
 endif()
+
+# 确保在编译时自动拷贝 shader 目录到可执行文件所在目录
+add_custom_command(TARGET eniac_opengl POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+        "${CMAKE_SOURCE_DIR}/glsl"
+        "$<TARGET_FILE_DIR:eniac_opengl>/glsl"
+)

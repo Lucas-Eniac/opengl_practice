@@ -3,6 +3,7 @@
 #include <GLFW/glfw3.h>
 
 #include "elements/triangle.h"
+#include "elements/cube.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
     glViewport(0, 0, width, height);
@@ -46,16 +47,19 @@ int main() {
 
     glViewport(0, 0, 800, 600);
 
-    Elements::Triangle triangle("MyTriangle");
-    triangle.initialize();
+    Elements::Cube cube("MyCube");
+    cube.initialize();
+
+    glEnable(GL_DEPTH_TEST);
 
     while (!glfwWindowShouldClose(window)) {
         processInput(window);
 
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        triangle.render();
+        cube.update(glfwGetTime());
+        cube.render();
 
         glfwSwapBuffers(window);
         glfwPollEvents();

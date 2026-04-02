@@ -148,4 +148,5 @@ CMakeFiles/eniac_opengl.dir/elements/triangle.cpp.obj: \
  E:/Workspace/opengl_practice/3rds/glad/include/KHR/khrplatform.h \
  D:/Softwares/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
  D:/Softwares/mingw64/x86_64-w64-mingw32/include/stdint.h \
- E:\Workspace\opengl_practice\elements\element.h
+ E:\Workspace\opengl_practice\elements\element.h \
+ D:/Softwares/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdint

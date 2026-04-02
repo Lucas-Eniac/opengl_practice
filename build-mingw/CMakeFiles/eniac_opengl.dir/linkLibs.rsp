@@ -1,1 +1,1 @@
- "E:/Workspace/opengl_practice/3rds/glfw/lib-mingw-w64/libglfw3.a" -lopengl32 -lgdi32 -luser32 -lshell32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ "E:/Workspace/opengl_practice/3rds/glfw/lib-mingw-w64/libglfw3.a" -lopengl32 -lgdi32 -luser32 -lshell32 E:/Workspace/opengl_practice/3rds/assimp/lib/libassimp.dll.a E:/Workspace/opengl_practice/3rds/assimp/lib/libunit.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

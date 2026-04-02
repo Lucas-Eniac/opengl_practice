@@ -17,11 +17,15 @@ target_include_directories(eniac_opengl PRIVATE ${CMAKE_SOURCE_DIR}/3rds)
 target_include_directories(eniac_opengl PRIVATE ${CMAKE_SOURCE_DIR}/3rds/glfw/include)
 target_include_directories(eniac_opengl PRIVATE ${CMAKE_SOURCE_DIR}/3rds/glad/include)
 target_include_directories(eniac_opengl PRIVATE ${CMAKE_SOURCE_DIR}/3rds/glm)
+target_include_directories(eniac_opengl PRIVATE ${CMAKE_SOURCE_DIR}/3rds/assimp/include)
+
 
 if(WIN32)
 	if(MINGW)
 		set(GLFW_LIB_DIR "${CMAKE_SOURCE_DIR}/3rds/glfw/lib-mingw-w64")
 		set(GLFW_LIB_FILE "${GLFW_LIB_DIR}/libglfw3.a")
+		set(ASSIMP_LIB_FILE "${CMAKE_SOURCE_DIR}/3rds/assimp/lib/libassimp.dll.a")
+		set(ASSIMP_UNIT_LIB_FILE "${CMAKE_SOURCE_DIR}/3rds/assimp/lib/libunit.dll.a")
 	elseif(MSVC)
 		if(MSVC_TOOLSET_VERSION GREATER_EQUAL 143)
 			set(GLFW_LIB_DIR "${CMAKE_SOURCE_DIR}/3rds/glfw/lib-vc2022")
@@ -44,18 +48,30 @@ if(WIN32)
 		message(FATAL_ERROR "GLFW library not found: ${GLFW_LIB_FILE}")
 	endif()
 
+
+
 	target_link_libraries(eniac_opengl PRIVATE
 		"${GLFW_LIB_FILE}"
 		opengl32
 		gdi32
 		user32
 		shell32
+		"${ASSIMP_LIB_FILE}"
+		"${ASSIMP_UNIT_LIB_FILE}"
 	)
 
 	if(EXISTS "${GLFW_LIB_DIR}/glfw3.dll")
 		add_custom_command(TARGET eniac_opengl POST_BUILD
 			COMMAND ${CMAKE_COMMAND} -E copy_if_different
 				"${GLFW_LIB_DIR}/glfw3.dll"
+				"$<TARGET_FILE_DIR:eniac_opengl>"
+		)
+	endif()
+
+	if(EXISTS "${CMAKE_SOURCE_DIR}/3rds/assimp/lib/libassimp-6.dll")
+		add_custom_command(TARGET eniac_opengl POST_BUILD
+			COMMAND ${CMAKE_COMMAND} -E copy_if_different
+				"${CMAKE_SOURCE_DIR}/3rds/assimp/lib/libassimp-6.dll"
 				"$<TARGET_FILE_DIR:eniac_opengl>"
 		)
 	endif()

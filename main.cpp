@@ -5,6 +5,8 @@
 #include "elements/triangle.h"
 #include "elements/cube.h"
 #include "elements/cube_texture.h"
+#include "elements/green_sea_turtle.h"
+#include "elements/backpack.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
     glViewport(0, 0, width, height);
@@ -48,19 +50,19 @@ int main() {
 
     glViewport(0, 0, 800, 600);
 
-    Elements::CubeTexture cubeTexture("MyCubeTexture");
-    cubeTexture.initialize();
+    Elements::Backpack backpack("Backpack");
+    backpack.initialize();
 
     glEnable(GL_DEPTH_TEST);
 
     while (!glfwWindowShouldClose(window)) {
         processInput(window);
 
-        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+        glClearColor(0.1f, 0.2f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        cubeTexture.update(glfwGetTime());
-        cubeTexture.render();
+        backpack.update(glfwGetTime());
+        backpack.render();
 
         glfwSwapBuffers(window);
         glfwPollEvents();

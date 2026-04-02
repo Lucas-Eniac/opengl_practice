@@ -152,6 +152,102 @@ eniac_opengl/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\eniac_opengl.dir\build.make CMakeFiles/eniac_opengl.dir/3rds/glad/src/glad.c.s
 .PHONY : 3rds/glad/src/glad.c.s
 
+elements/backpack.obj: elements/backpack.cpp.obj
+.PHONY : elements/backpack.obj
+
+# target to build an object file
+elements/backpack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\eniac_opengl.dir\build.make CMakeFiles/eniac_opengl.dir/elements/backpack.cpp.obj
+.PHONY : elements/backpack.cpp.obj
+
+elements/backpack.i: elements/backpack.cpp.i
+.PHONY : elements/backpack.i
+
+# target to preprocess a source file
+elements/backpack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\eniac_opengl.dir\build.make CMakeFiles/eniac_opengl.dir/elements/backpack.cpp.i
+.PHONY : elements/backpack.cpp.i
+
+elements/backpack.s: elements/backpack.cpp.s
+.PHONY : elements/backpack.s
+
+# target to generate assembly for a file
+elements/backpack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\eniac_opengl.dir\build.make CMakeFiles/eniac_opengl.dir/elements/backpack.cpp.s
+.PHONY : elements/backpack.cpp.s
+
+elements/cube.obj: elements/cube.cpp.obj
+.PHONY : elements/cube.obj
+
+# target to build an object file
+elements/cube.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\eniac_opengl.dir\build.make CMakeFiles/eniac_opengl.dir/elements/cube.cpp.obj
+.PHONY : elements/cube.cpp.obj
+
+elements/cube.i: elements/cube.cpp.i
+.PHONY : elements/cube.i
+
+# target to preprocess a source file
+elements/cube.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\eniac_opengl.dir\build.make CMakeFiles/eniac_opengl.dir/elements/cube.cpp.i
+.PHONY : elements/cube.cpp.i
+
+elements/cube.s: elements/cube.cpp.s
+.PHONY : elements/cube.s
+
+# target to generate assembly for a file
+elements/cube.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\eniac_opengl.dir\build.make CMakeFiles/eniac_opengl.dir/elements/cube.cpp.s
+.PHONY : elements/cube.cpp.s
+
+elements/cube_texture.obj: elements/cube_texture.cpp.obj
+.PHONY : elements/cube_texture.obj
+
+# target to build an object file
+elements/cube_texture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\eniac_opengl.dir\build.make CMakeFiles/eniac_opengl.dir/elements/cube_texture.cpp.obj
+.PHONY : elements/cube_texture.cpp.obj
+
+elements/cube_texture.i: elements/cube_texture.cpp.i
+.PHONY : elements/cube_texture.i
+
+# target to preprocess a source file
+elements/cube_texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\eniac_opengl.dir\build.make CMakeFiles/eniac_opengl.dir/elements/cube_texture.cpp.i
+.PHONY : elements/cube_texture.cpp.i
+
+elements/cube_texture.s: elements/cube_texture.cpp.s
+.PHONY : elements/cube_texture.s
+
+# target to generate assembly for a file
+elements/cube_texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\eniac_opengl.dir\build.make CMakeFiles/eniac_opengl.dir/elements/cube_texture.cpp.s
+.PHONY : elements/cube_texture.cpp.s
+
+elements/green_sea_turtle.obj: elements/green_sea_turtle.cpp.obj
+.PHONY : elements/green_sea_turtle.obj
+
+# target to build an object file
+elements/green_sea_turtle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\eniac_opengl.dir\build.make CMakeFiles/eniac_opengl.dir/elements/green_sea_turtle.cpp.obj
+.PHONY : elements/green_sea_turtle.cpp.obj
+
+elements/green_sea_turtle.i: elements/green_sea_turtle.cpp.i
+.PHONY : elements/green_sea_turtle.i
+
+# target to preprocess a source file
+elements/green_sea_turtle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\eniac_opengl.dir\build.make CMakeFiles/eniac_opengl.dir/elements/green_sea_turtle.cpp.i
+.PHONY : elements/green_sea_turtle.cpp.i
+
+elements/green_sea_turtle.s: elements/green_sea_turtle.cpp.s
+.PHONY : elements/green_sea_turtle.s
+
+# target to generate assembly for a file
+elements/green_sea_turtle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\eniac_opengl.dir\build.make CMakeFiles/eniac_opengl.dir/elements/green_sea_turtle.cpp.s
+.PHONY : elements/green_sea_turtle.cpp.s
+
 elements/triangle.obj: elements/triangle.cpp.obj
 .PHONY : elements/triangle.obj
 
@@ -212,6 +308,18 @@ help:
 	@echo ... 3rds/glad/src/glad.obj
 	@echo ... 3rds/glad/src/glad.i
 	@echo ... 3rds/glad/src/glad.s
+	@echo ... elements/backpack.obj
+	@echo ... elements/backpack.i
+	@echo ... elements/backpack.s
+	@echo ... elements/cube.obj
+	@echo ... elements/cube.i
+	@echo ... elements/cube.s
+	@echo ... elements/cube_texture.obj
+	@echo ... elements/cube_texture.i
+	@echo ... elements/cube_texture.s
+	@echo ... elements/green_sea_turtle.obj
+	@echo ... elements/green_sea_turtle.i
+	@echo ... elements/green_sea_turtle.s
 	@echo ... elements/triangle.obj
 	@echo ... elements/triangle.i
 	@echo ... elements/triangle.s

@@ -2953,3 +2953,464 @@ events:
       Running the CXX compiler's linker: "../src/gcc-15.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1520-win32-seh-ucrt-rt_v13-rev1/mingw64/bin/ld.exe" "--version"
       
 ...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:21 (find_package)"
+    name: "assimp"
+    configs:
+      -
+        filename: "assimp.cps"
+        kind: "cps"
+      -
+        filename: "assimpConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "assimp-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "assimp"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "E:/Workspace/opengl_practice/build-mingw/CMakeFiles/pkgRedirects/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Workspace/opengl_practice/build-mingw/CMakeFiles/pkgRedirects/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Workspace/opengl_practice/build-mingw/CMakeFiles/pkgRedirects/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Workspace/opengl_practice/build-mingw/CMakeFiles/pkgRedirects/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/patro/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/patro/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/patro/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/patro/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/patro/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/patro/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/patro/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/patro/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/Microsoft VS Code/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/Microsoft VS Code/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/Microsoft VS Code/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/Microsoft VS Code/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Eclipse Adoptium/jdk-21.0.10.7-hotspot/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Eclipse Adoptium/jdk-21.0.10.7-hotspot/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Eclipse Adoptium/jdk-21.0.10.7-hotspot/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Eclipse Adoptium/jdk-21.0.10.7-hotspot/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/Scripts/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/Scripts/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/Scripts/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/Scripts/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/patro/AppData/Local/Microsoft/WindowsApps/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/patro/AppData/Local/Microsoft/WindowsApps/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/patro/AppData/Local/Microsoft/WindowsApps/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/patro/AppData/Local/Microsoft/WindowsApps/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/patro/AppData/Roaming/npm/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/patro/AppData/Roaming/npm/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/patro/AppData/Roaming/npm/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/patro/AppData/Roaming/npm/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/Git/cmd/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/Git/cmd/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/Git/cmd/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/Git/cmd/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/nodejs/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/nodejs/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/nodejs/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/nodejs/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/CMake/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/CMake/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/CMake/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/CMake/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/mingw64/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/mingw64/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/mingw64/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/mingw64/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/gradle-9.4.1/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/gradle-9.4.1/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/gradle-9.4.1/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Softwares/gradle-9.4.1/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/assimpConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/assimp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/assimp.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\patro\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\patro\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "D:\\Softwares\\Microsoft VS Code"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.10.7-hotspot\\bin"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\patro\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\patro\\AppData\\Roaming\\npm"
+        - "D:\\Softwares\\Microsoft VS Code\\bin"
+        - "D:\\Softwares\\Git\\cmd"
+        - "D:\\Softwares\\nodejs\\"
+        - "D:\\Softwares\\CMake\\bin"
+        - "D:\\Softwares\\mingw64\\bin"
+        - "D:\\Softwares\\gradle-9.4.1\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\patro\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Softwares\\Microsoft VS Code\\bin"
+        - "D:\\Softwares\\nodejs"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/eniac_opengl"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Softwares/CMake"
+        - "C:/Program Files (x86)/eniac_opengl"
+...

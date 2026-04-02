@@ -86,11 +86,71 @@ CMakeFiles/eniac_opengl.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eniac_opengl.dir/main.cpp.s"
 	D:\Softwares\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Workspace\opengl_practice\main.cpp -o CMakeFiles\eniac_opengl.dir\main.cpp.s
 
+CMakeFiles/eniac_opengl.dir/elements/backpack.cpp.obj: CMakeFiles/eniac_opengl.dir/flags.make
+CMakeFiles/eniac_opengl.dir/elements/backpack.cpp.obj: CMakeFiles/eniac_opengl.dir/includes_CXX.rsp
+CMakeFiles/eniac_opengl.dir/elements/backpack.cpp.obj: E:/Workspace/opengl_practice/elements/backpack.cpp
+CMakeFiles/eniac_opengl.dir/elements/backpack.cpp.obj: CMakeFiles/eniac_opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Workspace\opengl_practice\build-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/eniac_opengl.dir/elements/backpack.cpp.obj"
+	D:\Softwares\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eniac_opengl.dir/elements/backpack.cpp.obj -MF CMakeFiles\eniac_opengl.dir\elements\backpack.cpp.obj.d -o CMakeFiles\eniac_opengl.dir\elements\backpack.cpp.obj -c E:\Workspace\opengl_practice\elements\backpack.cpp
+
+CMakeFiles/eniac_opengl.dir/elements/backpack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eniac_opengl.dir/elements/backpack.cpp.i"
+	D:\Softwares\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Workspace\opengl_practice\elements\backpack.cpp > CMakeFiles\eniac_opengl.dir\elements\backpack.cpp.i
+
+CMakeFiles/eniac_opengl.dir/elements/backpack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eniac_opengl.dir/elements/backpack.cpp.s"
+	D:\Softwares\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Workspace\opengl_practice\elements\backpack.cpp -o CMakeFiles\eniac_opengl.dir\elements\backpack.cpp.s
+
+CMakeFiles/eniac_opengl.dir/elements/cube.cpp.obj: CMakeFiles/eniac_opengl.dir/flags.make
+CMakeFiles/eniac_opengl.dir/elements/cube.cpp.obj: CMakeFiles/eniac_opengl.dir/includes_CXX.rsp
+CMakeFiles/eniac_opengl.dir/elements/cube.cpp.obj: E:/Workspace/opengl_practice/elements/cube.cpp
+CMakeFiles/eniac_opengl.dir/elements/cube.cpp.obj: CMakeFiles/eniac_opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Workspace\opengl_practice\build-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/eniac_opengl.dir/elements/cube.cpp.obj"
+	D:\Softwares\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eniac_opengl.dir/elements/cube.cpp.obj -MF CMakeFiles\eniac_opengl.dir\elements\cube.cpp.obj.d -o CMakeFiles\eniac_opengl.dir\elements\cube.cpp.obj -c E:\Workspace\opengl_practice\elements\cube.cpp
+
+CMakeFiles/eniac_opengl.dir/elements/cube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eniac_opengl.dir/elements/cube.cpp.i"
+	D:\Softwares\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Workspace\opengl_practice\elements\cube.cpp > CMakeFiles\eniac_opengl.dir\elements\cube.cpp.i
+
+CMakeFiles/eniac_opengl.dir/elements/cube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eniac_opengl.dir/elements/cube.cpp.s"
+	D:\Softwares\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Workspace\opengl_practice\elements\cube.cpp -o CMakeFiles\eniac_opengl.dir\elements\cube.cpp.s
+
+CMakeFiles/eniac_opengl.dir/elements/cube_texture.cpp.obj: CMakeFiles/eniac_opengl.dir/flags.make
+CMakeFiles/eniac_opengl.dir/elements/cube_texture.cpp.obj: CMakeFiles/eniac_opengl.dir/includes_CXX.rsp
+CMakeFiles/eniac_opengl.dir/elements/cube_texture.cpp.obj: E:/Workspace/opengl_practice/elements/cube_texture.cpp
+CMakeFiles/eniac_opengl.dir/elements/cube_texture.cpp.obj: CMakeFiles/eniac_opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Workspace\opengl_practice\build-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/eniac_opengl.dir/elements/cube_texture.cpp.obj"
+	D:\Softwares\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eniac_opengl.dir/elements/cube_texture.cpp.obj -MF CMakeFiles\eniac_opengl.dir\elements\cube_texture.cpp.obj.d -o CMakeFiles\eniac_opengl.dir\elements\cube_texture.cpp.obj -c E:\Workspace\opengl_practice\elements\cube_texture.cpp
+
+CMakeFiles/eniac_opengl.dir/elements/cube_texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eniac_opengl.dir/elements/cube_texture.cpp.i"
+	D:\Softwares\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Workspace\opengl_practice\elements\cube_texture.cpp > CMakeFiles\eniac_opengl.dir\elements\cube_texture.cpp.i
+
+CMakeFiles/eniac_opengl.dir/elements/cube_texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eniac_opengl.dir/elements/cube_texture.cpp.s"
+	D:\Softwares\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Workspace\opengl_practice\elements\cube_texture.cpp -o CMakeFiles\eniac_opengl.dir\elements\cube_texture.cpp.s
+
+CMakeFiles/eniac_opengl.dir/elements/green_sea_turtle.cpp.obj: CMakeFiles/eniac_opengl.dir/flags.make
+CMakeFiles/eniac_opengl.dir/elements/green_sea_turtle.cpp.obj: CMakeFiles/eniac_opengl.dir/includes_CXX.rsp
+CMakeFiles/eniac_opengl.dir/elements/green_sea_turtle.cpp.obj: E:/Workspace/opengl_practice/elements/green_sea_turtle.cpp
+CMakeFiles/eniac_opengl.dir/elements/green_sea_turtle.cpp.obj: CMakeFiles/eniac_opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Workspace\opengl_practice\build-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/eniac_opengl.dir/elements/green_sea_turtle.cpp.obj"
+	D:\Softwares\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eniac_opengl.dir/elements/green_sea_turtle.cpp.obj -MF CMakeFiles\eniac_opengl.dir\elements\green_sea_turtle.cpp.obj.d -o CMakeFiles\eniac_opengl.dir\elements\green_sea_turtle.cpp.obj -c E:\Workspace\opengl_practice\elements\green_sea_turtle.cpp
+
+CMakeFiles/eniac_opengl.dir/elements/green_sea_turtle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/eniac_opengl.dir/elements/green_sea_turtle.cpp.i"
+	D:\Softwares\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Workspace\opengl_practice\elements\green_sea_turtle.cpp > CMakeFiles\eniac_opengl.dir\elements\green_sea_turtle.cpp.i
+
+CMakeFiles/eniac_opengl.dir/elements/green_sea_turtle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/eniac_opengl.dir/elements/green_sea_turtle.cpp.s"
+	D:\Softwares\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Workspace\opengl_practice\elements\green_sea_turtle.cpp -o CMakeFiles\eniac_opengl.dir\elements\green_sea_turtle.cpp.s
+
 CMakeFiles/eniac_opengl.dir/elements/triangle.cpp.obj: CMakeFiles/eniac_opengl.dir/flags.make
 CMakeFiles/eniac_opengl.dir/elements/triangle.cpp.obj: CMakeFiles/eniac_opengl.dir/includes_CXX.rsp
 CMakeFiles/eniac_opengl.dir/elements/triangle.cpp.obj: E:/Workspace/opengl_practice/elements/triangle.cpp
 CMakeFiles/eniac_opengl.dir/elements/triangle.cpp.obj: CMakeFiles/eniac_opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Workspace\opengl_practice\build-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/eniac_opengl.dir/elements/triangle.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Workspace\opengl_practice\build-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/eniac_opengl.dir/elements/triangle.cpp.obj"
 	D:\Softwares\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eniac_opengl.dir/elements/triangle.cpp.obj -MF CMakeFiles\eniac_opengl.dir\elements\triangle.cpp.obj.d -o CMakeFiles\eniac_opengl.dir\elements\triangle.cpp.obj -c E:\Workspace\opengl_practice\elements\triangle.cpp
 
 CMakeFiles/eniac_opengl.dir/elements/triangle.cpp.i: cmake_force
@@ -105,7 +165,7 @@ CMakeFiles/eniac_opengl.dir/3rds/glad/src/glad.c.obj: CMakeFiles/eniac_opengl.di
 CMakeFiles/eniac_opengl.dir/3rds/glad/src/glad.c.obj: CMakeFiles/eniac_opengl.dir/includes_C.rsp
 CMakeFiles/eniac_opengl.dir/3rds/glad/src/glad.c.obj: E:/Workspace/opengl_practice/3rds/glad/src/glad.c
 CMakeFiles/eniac_opengl.dir/3rds/glad/src/glad.c.obj: CMakeFiles/eniac_opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Workspace\opengl_practice\build-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/eniac_opengl.dir/3rds/glad/src/glad.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Workspace\opengl_practice\build-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/eniac_opengl.dir/3rds/glad/src/glad.c.obj"
 	D:\Softwares\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/eniac_opengl.dir/3rds/glad/src/glad.c.obj -MF CMakeFiles\eniac_opengl.dir\3rds\glad\src\glad.c.obj.d -o CMakeFiles\eniac_opengl.dir\3rds\glad\src\glad.c.obj -c E:\Workspace\opengl_practice\3rds\glad\src\glad.c
 
 CMakeFiles/eniac_opengl.dir/3rds/glad/src/glad.c.i: cmake_force
@@ -119,6 +179,10 @@ CMakeFiles/eniac_opengl.dir/3rds/glad/src/glad.c.s: cmake_force
 # Object files for target eniac_opengl
 eniac_opengl_OBJECTS = \
 "CMakeFiles/eniac_opengl.dir/main.cpp.obj" \
+"CMakeFiles/eniac_opengl.dir/elements/backpack.cpp.obj" \
+"CMakeFiles/eniac_opengl.dir/elements/cube.cpp.obj" \
+"CMakeFiles/eniac_opengl.dir/elements/cube_texture.cpp.obj" \
+"CMakeFiles/eniac_opengl.dir/elements/green_sea_turtle.cpp.obj" \
 "CMakeFiles/eniac_opengl.dir/elements/triangle.cpp.obj" \
 "CMakeFiles/eniac_opengl.dir/3rds/glad/src/glad.c.obj"
 
@@ -126,16 +190,25 @@ eniac_opengl_OBJECTS = \
 eniac_opengl_EXTERNAL_OBJECTS =
 
 eniac_opengl.exe: CMakeFiles/eniac_opengl.dir/main.cpp.obj
+eniac_opengl.exe: CMakeFiles/eniac_opengl.dir/elements/backpack.cpp.obj
+eniac_opengl.exe: CMakeFiles/eniac_opengl.dir/elements/cube.cpp.obj
+eniac_opengl.exe: CMakeFiles/eniac_opengl.dir/elements/cube_texture.cpp.obj
+eniac_opengl.exe: CMakeFiles/eniac_opengl.dir/elements/green_sea_turtle.cpp.obj
 eniac_opengl.exe: CMakeFiles/eniac_opengl.dir/elements/triangle.cpp.obj
 eniac_opengl.exe: CMakeFiles/eniac_opengl.dir/3rds/glad/src/glad.c.obj
 eniac_opengl.exe: CMakeFiles/eniac_opengl.dir/build.make
 eniac_opengl.exe: E:/Workspace/opengl_practice/3rds/glfw/lib-mingw-w64/libglfw3.a
+eniac_opengl.exe: E:/Workspace/opengl_practice/3rds/assimp/lib/libassimp.dll.a
+eniac_opengl.exe: E:/Workspace/opengl_practice/3rds/assimp/lib/libunit.dll.a
 eniac_opengl.exe: CMakeFiles/eniac_opengl.dir/linkLibs.rsp
 eniac_opengl.exe: CMakeFiles/eniac_opengl.dir/objects1.rsp
 eniac_opengl.exe: CMakeFiles/eniac_opengl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\Workspace\opengl_practice\build-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable eniac_opengl.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\Workspace\opengl_practice\build-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable eniac_opengl.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\eniac_opengl.dir\link.txt --verbose=$(VERBOSE)
 	D:\Softwares\CMake\bin\cmake.exe -E copy_if_different E:/Workspace/opengl_practice/3rds/glfw/lib-mingw-w64/glfw3.dll E:/Workspace/opengl_practice/build-mingw
+	D:\Softwares\CMake\bin\cmake.exe -E copy_if_different E:/Workspace/opengl_practice/3rds/assimp/lib/libassimp-6.dll E:/Workspace/opengl_practice/build-mingw
+	D:\Softwares\CMake\bin\cmake.exe -E copy_directory E:/Workspace/opengl_practice/glsl E:/Workspace/opengl_practice/build-mingw/glsl
+	D:\Softwares\CMake\bin\cmake.exe -E copy_directory E:/Workspace/opengl_practice/res E:/Workspace/opengl_practice/build-mingw/res
 
 # Rule to build all files generated by this target.
 CMakeFiles/eniac_opengl.dir/build: eniac_opengl.exe
